@@ -3,7 +3,6 @@ import Logo from './/footerLogo';
 import styles from '../../../public/Navbar.module.css'
 import Links from ".//Links";
 import logo  from "../../../public/logo.svg";
-import classNames from "classnames";
 
 /*const backup =  <div className= {`styles.NavbarContainer${isOpen?'Open' :'Closed'}`}  onClick={toggle}>*/
 
