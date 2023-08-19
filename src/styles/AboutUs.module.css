@@ -1,0 +1,68 @@
+.container{
+ overflow: hidden;
+margin-left: 20vw;
+padding-left: clamp(1rem, 1vw, 2em);
+
+}
+
+
+.AboutUsHeader{
+
+    color: #636FED;
+    font-size: clamp(4rem,4vw,9rem);
+    padding-top: 1em;
+    padding-bottom: clamp(1rem, 1vw, 3em);
+    padding-left: clamp(1rem, 1vw, 2em);
+    max-width: 20ch;
+}
+.AboutUsHeader h1{
+    font-weight: bolder;
+padding-bottom: 5em;
+}
+
+.container p{
+    font-size: 1.2rem;
+    color: #636FED;
+    font-weight: lighter;
+    padding-bottom: 5em;
+    width: 80%;
+}
+.MasterContainer{
+    background-color: #F0FFFF;
+    
+}
+  
+.MaidImageCont{
+    z-index: -1;
+    width: 100%;
+    object-fit: cover;
+margin-bottom: -30%; 
+   height: auto;
+
+}
+
+.AboutUsContainerInfo{
+    position: relative;
+    font-weight: '100';
+    max-width: 100%;
+    padding: clamp(1em, 2vw, 5em);
+    background-color: #814AFF;
+    color: #ECECF0;
+}
+.AboutUsContainerInfo > *{
+
+    margin-left: 20vw;
+    padding-top: clamp(2em,4vw,6em);
+    padding-bottom: clamp(1em,4vw,5em);
+
+}
+.AboutUsContainerInfo h1{
+font-family: 'Nunito';  
+  font-size: 2rem;
+}
+.AboutUsContainerInfo p {
+    width: 80%;
+    font-weight: lighter;
+    padding-top: 1em;
+    line-height: 1.3rem;
+}

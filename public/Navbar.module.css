@@ -1,0 +1,52 @@
+.NavbarContainerOpen{
+   display: flex;
+   z-index: 1;
+   gap: 1em;
+   justify-content: space-around;
+   align-items: center;
+   background-color: rgb(253, 253, 255);
+   width: 100vw;
+   height: clamp(100%, 100vh, 200vh);
+   color: rgb(16, 16, 16);
+   padding: 1em;
+    position: fixed;
+    transition-property: width;
+transition-duration: .8s;
+}
+.NavbarLogo{
+    display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+
+
+}
+
+
+.logoClosed{
+    display: none;
+}
+
+
+
+#navbarLinks li{
+
+    list-style-type: none;
+
+}
+.NavbarContainerClosed{
+    
+min-height: 100vh;
+position: fixed;
+width: 4rem;
+transition-property: width;
+transition-duration: .4s;
+z-index: 1;
+display: flex;
+justify-content: center;
+background-color: rgb(255, 255, 255);
+}
+.NavbarContainerClosed:hover{
+    border-color: aquamarine;
+    transition: 0.5s ;
+}

@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-blend-mode: hue;
+   padding-top: 10rem;
+   max-width: 20%;
+}
+
+.container input{
+}

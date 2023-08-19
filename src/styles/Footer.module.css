@@ -1,0 +1,48 @@
+.FooterContainer{
+    background-color: rgba(11, 110, 181, 0.8);
+    font-size: 1vw;
+    width: 100%;
+    padding-left: 6rem;
+    display: flex;
+    z-index: 2;
+    display: inline-block;
+    padding: 5em 3em 3em 3em;
+    font-size: 2rem;
+    color: white;
+}
+
+
+.FooterContainer li{
+
+
+}
+.footerLogoContainer{
+   align-items: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footerLinks{
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+    font-size: 1rem;
+align-items: flex-start;}
+
+.footerLinks ul a{
+display: inline-block;
+font-size: 1rem;
+padding-bottom: 1em;
+list-style: none;
+
+}
+
+
+
+
+.footerLinks li{
+    padding: 0px 1rem 1rem 1rem;
+    font-style: none;
+    list-style-type: none;
+    color: white;
+list-style: none;}

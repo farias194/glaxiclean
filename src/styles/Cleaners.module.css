@@ -1,0 +1,33 @@
+.CleanerContainer{
+margin-top: 0px;
+/*background-image: url('../../public/Cleaners.gif');*/
+padding: 0;
+background-color: #B1EEEA;
+height: 100%;
+background-size: cover;
+padding-bottom: 10vw;
+width: 100%;
+padding-left: 5rem;
+display: flex;
+flex-direction: column;
+color: #4616BF;
+align-items: center;
+justify-content: center;}
+
+.CleanerContainer h1{
+    padding-top: 5vh;
+    padding-left: 20vw;
+    font-size: 4vw;
+    width: 30ch;
+    align-self: baseline;
+    line-height: 3ch;
+}
+.CleanerContainer h2{
+   max-width: 50ch;
+   padding-left: 2rem;
+   padding-right: 2rem;
+
+}
+.spanner{
+    background-color: #1DD59C;
+}

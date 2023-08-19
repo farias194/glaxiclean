@@ -1,0 +1,139 @@
+.BubbleOne, .BubbleTwo, .BubbleThree{
+    width: 100%;
+    justify-items: space-between;
+}
+
+
+.BubbleOne{
+    display: flex;
+    flex-direction:  row;
+    align-self: flex-start;
+    margin-left: 10em;
+    grid-area: one;
+    flex-grow: 1;
+    font-size:  clamp(16px, 1vw 2rem);
+    padding-top: 1em;
+   width: fit-content;
+   justify-content: space-between;
+}
+.numberContainer{
+    align-content: center;
+    font-size: 2rem;
+    border-radius: 50%;
+    background-size: 1vw;
+    background-position: center;
+    box-sizing: border-box;
+
+}
+
+.BubbleTwo{
+flex-direction: row;
+    margin-left: 10em;
+    padding-top: 1em;
+    width: fit-content;
+container :  bubbletwo / normal;
+    display: flex;
+   flex-grow: 2;
+   font-size:  clamp(16px, 1vw 2rem);
+   gap: 1vw;
+    align-self: flex-end;
+}
+
+@container bubbletwo (max-width: 700px){
+    .BubbleTwo{
+        flex-direction: column;
+    }
+    .BubbleTwoImage{
+        width: 70%;
+    }
+}
+
+@media (width < 900px ){
+    .BubbleTwo{
+        flex-direction: column;
+    }
+}
+.BubbleThree{   
+    margin-left: 10em;
+    width: fit-content;
+
+    justify-content: center;
+     display: flex;
+     padding-top: 1em;
+     grid-area: three;
+
+        flex-direction: column;
+    flex-grow: 1;
+    font-size:  clamp(16px, 1vw 2rem);
+  grid-area: 'bubbleThree';
+}   
+.BubbleThreeImage {
+        object-fit: contain;
+}
+.BubbleOneImage{
+
+    clip-path: url('/public/blob.svg');    
+    object-fit: contain;
+}
+.Bubble-Image-Container{
+}
+.BubbleTwoImage{
+    max-width: 50%;
+    container :  bubbletwo / normal;
+
+align-content: center;
+justify-content: center;
+    
+}
+
+.BubbleThree h1{
+    font-size: 2rem;    
+    height: auto;
+}  
+
+.Bubble-One{
+        display: flex;
+    }
+
+.Bubble-One-Text-Container{
+        padding: 1vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1rem;
+    }
+    .Bubble-One-Container{
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .BubbleThreeText{
+    }
+    
+    .BubbleOne img{
+        height: auto;
+        width: clamp(12em, 90%, 80vw);
+        object-fit: cover;
+    }
+    .BubbleTwo img{
+        height: auto;
+        width: clamp(12em, 90%, 80vw);
+
+        object-fit: cover;
+    }
+    
+    .BubbleThree img{
+        height: auto;
+        object-fit: cover;
+        width: clamp(12em, 90%, 80vw);
+    }
+
+    .BubbleThree,
+    .BubbleOne,
+    .BubbleTwo{
+        align-content: baseline;
+        padding-top: clamp(1vw, 3rem,4vw);
+        padding-bottom: clamp(1vw, 5rem,3vw);
+    }
+    @media (min-width:400px)  {
+        
+    }

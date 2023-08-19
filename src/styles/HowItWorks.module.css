@@ -1,0 +1,41 @@
+
+
+.HowItWorksContainer{
+    background-color: #4D11C7 ;
+    color: whitesmoke;
+    background-blend-mode:hue;
+    box-sizing: border-box;
+    padding-bottom: 3rem;   
+    max-width: 100%;
+   padding-top: 3rem;
+  
+   
+   
+  
+}
+.HowItWorksContainer h1{
+    font-size: clamp(2rem, 5em, 8rem + 1em) ;
+    padding: 5rem;
+    align-items: center;
+    text-align: center;
+}
+.BubblesContainer{
+    max-width: 100%;
+    display: flex;
+flex-direction: column;
+container-type: inline-size;
+container-name: bubblecontain;
+
+
+
+
+}
+@container bubblecontain (width < 500px ){
+
+    .BubbleTwo{
+        display: flex;
+        flex-direction: column;
+        background-color: gray;
+        font-size: .5rem;
+    }
+}

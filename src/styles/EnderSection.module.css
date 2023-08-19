@@ -1,0 +1,28 @@
+.EnderContainer{
+    max-width: 100%;
+    height: auto;
+    background-image: url('../../public/Footer.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+
+
+}
+
+.EnderContainer > *{
+    margin-left: 20vw;
+    padding-bottom: 2em;
+
+}
+.hello{
+    margin: 0px;
+padding: 2em;
+    font-size: clamp(3rem, 5vw, 9rem);
+max-width: 30ch;    
+color: white;
+}
+.EnderFooterContainer{
+    margin:0px;
+    padding:0px;
+}
