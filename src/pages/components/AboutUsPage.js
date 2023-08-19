@@ -19,7 +19,7 @@ const AboutUsPage =()=>{
 <p>Through our use of green cleaning products, we are not only reducing the environmental impact of our services but also creating a healthier indoor environment for you and your loved ones. Our meticulous attention to detail ensures that every nook and cranny is thoroughly cleaned, leaving your home refreshed, rejuvenated, and free from harmful residues.
 
 Join us in our mission for a cleaner, safer, and more sustainable future.</p>
-<p>We’re a small business serving the entire North Jersey area for 5 years. We take care of this part of life so you can kick butt in the rest of your life. 
+<p>We arere a small business serving the entire North Jersey area for 5 years. We take care of this part of life so you can kick butt in the rest of your life. 
 </p>
 </section>
 <Image className={styles.MaidImageCont} src={MaidImage} alt=''></Image>
@@ -30,7 +30,7 @@ Join us in our mission for a cleaner, safer, and more sustainable future.</p>
 
 <section className={styles.ContainerInfoOne}>
     <h1>Timeless and Effeciency</h1>
-    <p>We understand that your time is valuable. That's why we are dedicated to delivering our services with punctuality and efficiency. With our reliable team of skilled professionals, we strive to complete each cleaning project promptly and effectively, ensuring your home is left spotless and ready for you to enjoy.
+    <p>We understand that your time is valuable. Thats why we are dedicated to delivering our services with punctuality and efficiency. With our reliable team of skilled professionals, we strive to complete each cleaning project promptly and effectively, ensuring your home is left spotless and ready for you to enjoy.
 </p>
 </section>
 <section className={styles.ContainerInfoTwo}>
@@ -42,8 +42,8 @@ Join us in our mission for a cleaner, safer, and more sustainable future.</p>
 <h1>Green Cleaning for a Healthy Home</h1>
 <p>
 We deeply care about your health and the well-being of 
-the environment. That's why we have made a conscious choice to exclusively use green cleaning products. Unlike harsh chemicals that can have adverse effects on your health and the air quality in your home, our eco-friendly cleaning solutions are non-toxic, biodegradable, and safe for your family, including children and pets. We are committed to creating 
-a clean and healthy living space without compromising on the planet's future.
+the environment. Thats why we have made a conscious choice to exclusively use green cleaning products. Unlike harsh chemicals that can have adverse effects on your health and the air quality in your home, our eco-friendly cleaning solutions are non-toxic, biodegradable, and safe for your family, including children and pets. We are committed to creating 
+a clean and healthy living space without compromising on the planets future.
 </p>
 
 </section>
