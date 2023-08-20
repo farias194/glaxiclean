@@ -1,29 +1,32 @@
 .BubbleOne, .BubbleTwo, .BubbleThree{
     width: 100%;
-    justify-items: space-between;
+    align-items: center;
+    justify-content: center;
+    padding-top: clamp(1vw, 3rem,4vw);
+    padding-bottom: clamp(1vw, 5rem,3vw);
+    gap: 5vw;
+   
 }
 
 
 .BubbleOne{
     display: flex;
     flex-direction:  row;
-    align-self: flex-start;
     margin-left: 10em;
-    grid-area: one;
-    flex-grow: 1;
     font-size:  clamp(16px, 1vw 2rem);
     padding-top: 1em;
-   width: fit-content;
-   justify-content: space-between;
-}
-.numberContainer{
-    align-content: center;
-    font-size: 2rem;
-    border-radius: 50%;
-    background-size: 1vw;
-    background-position: center;
-    box-sizing: border-box;
+    width: max-content;
+    gap: 1vw;
+justify-content: space-between;}
 
+.numberContainer{
+    font-size: 1rem;
+    align-items: center;
+    align-self: center;
+    padding: 1rem;
+    background-position: center;
+    border-radius: 50%;
+    border: 1px white solid;
 }
 
 .BubbleTwo{
@@ -31,7 +34,6 @@ flex-direction: row;
     margin-left: 10em;
     padding-top: 1em;
     width: fit-content;
-container :  bubbletwo / normal;
     display: flex;
    flex-grow: 2;
    font-size:  clamp(16px, 1vw 2rem);
@@ -71,10 +73,10 @@ container :  bubbletwo / normal;
         object-fit: contain;
 }
 .BubbleOneImage{
-
     clip-path: url('/public/blob.svg');    
     object-fit: contain;
 }
+
 .Bubble-Image-Container{
 }
 .BubbleTwoImage{
@@ -111,8 +113,15 @@ justify-content: center;
     
     .BubbleOne img{
         height: auto;
-        width: clamp(12em, 90%, 80vw);
+        width: clamp(12em, 90%, 50vw);
         object-fit: cover;
+        order: 1;
+
+
+    }
+
+    .BubbleOne > .bubbleText{
+        order: 2;
     }
     .BubbleTwo img{
         height: auto;
@@ -127,13 +136,11 @@ justify-content: center;
         width: clamp(12em, 90%, 80vw);
     }
 
-    .BubbleThree,
-    .BubbleOne,
-    .BubbleTwo{
-        align-content: baseline;
-        padding-top: clamp(1vw, 3rem,4vw);
-        padding-bottom: clamp(1vw, 5rem,3vw);
-    }
-    @media (min-width:400px)  {
-        
+
+    @media (width < 800px)  {
+        .BubbleOne, .BubbleTwo, .BubbleThree{
+            display: flex;
+            flex-direction: column;
+        }
+    
     }

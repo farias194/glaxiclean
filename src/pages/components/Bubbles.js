@@ -13,8 +13,9 @@ function Bubbles ({...props}){
     return(
 <div className={styles[className]}>
 
-         <h2 className={styles.numberContainer}>{bubbleTextNumber}</h2> <h2>{bubbleText}</h2>
+         <h2 className={styles.numberContainer}>{bubbleTextNumber} </h2> 
 
+         <h2 className={styles.bubbleText}>{bubbleText}</h2>
           <Image 
        className={styles[`${props.className}Image`]} 
           src={bubbleImage}
