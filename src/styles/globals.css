@@ -118,6 +118,7 @@ a {
 }
 
 :root{
+  overflow-x: hidden;
   padding: 0;
   margin: 0;
   --leading: calc(5ch+1px);
