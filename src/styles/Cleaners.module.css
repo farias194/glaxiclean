@@ -16,9 +16,7 @@ justify-content: center;}
 
 .CleanerContainer h1{
     padding-top: 5vh;
-    padding-left: 20vw;
-    font-size: 4vw;
-    width: 30ch;
+    font-size: 2rem;
     align-self: baseline;
     line-height: 3ch;
 }

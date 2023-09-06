@@ -13,6 +13,7 @@
     transition-property: width;
 transition-duration: .8s;
 }
+
 .NavbarLogo{
     display: flex;
   align-items: center;
@@ -49,4 +50,15 @@ background-color: rgb(255, 255, 255);
 .NavbarContainerClosed:hover{
     border-color: aquamarine;
     transition: 0.5s ;
+}
+
+@media  ( max-width : 1000px)  {
+    .NavbarContainerOpen  
+    {display: none;
+    }
+    
+    .NavbarContainerClosed{
+        display: none;
+    
+}
 }

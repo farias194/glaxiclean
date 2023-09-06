@@ -8,7 +8,7 @@
     margin: 0;
     display: flex;
     margin: 0px;
-    color: white;
+    color: rgb(112, 31, 211);
     flex-direction:column;
 
 }
@@ -16,10 +16,11 @@
     display: flex;
     flex-direction: column;
     background-size: cover;
+    background-repeat: no-repeat;
     min-height:  max(80vh, 100vh);
 
     padding-left: 10rem;
-    background-image : url('../../public/hero-image.png');
+    background-image : url('../../public/glaxiherotwo.webp');
 
 }
 

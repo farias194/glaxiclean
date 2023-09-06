@@ -12,7 +12,7 @@ const bubbleClassName = ['BubbleOne', 'BubbleTwo', 'BubbleThree'];
 
 const bubbleImage = [BubbleOneImage, BubbleTwoImage, BubbleThreeImage];
 const bubbleTextNumber= [ '1 ', '2 ', '3 '];
-const bubbleText = ['Sign Up through our booking site', 'Select which area you would like to clean','Relax and let us take care of the rest'
+const bubbleText = ['Sign Up through our booking site', 'Select the areas which you would like to clean','Relax and let us take care of the rest'
 ];
 
 

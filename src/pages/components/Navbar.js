@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { use, useState } from "react";
 import Logo from './/footerLogo';
 import styles from '../../../public/Navbar.module.css'
 import Links from ".//Links";
@@ -12,6 +12,8 @@ function Navbar (){
 
 const [isOpen, setOpen] = useState(false)
 
+
+
 function toggle(){
     setOpen(!isOpen)
 }
@@ -23,6 +25,7 @@ function toggle(){
 /*<div className= {{styles}`.NavbarContainer${isOpen?'Open' :'Closed'}`}  onClick={toggle}>*/
 
     return(
+
 
          <div className= {styles[`NavbarContainer${isOpen?'Open' :'Closed'}`]}  onClick={toggle}>
 
@@ -38,5 +41,7 @@ function toggle(){
 )
 
 }
+
+
 
 export default Navbar

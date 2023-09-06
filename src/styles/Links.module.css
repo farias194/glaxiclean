@@ -1,11 +1,9 @@
-
 .LinksOpen{
+    font-family: 'Comfortaa';
 
-font-size: 1rem;
-    
 }
+
 .LinksOpen ul{
-    font-size: 6em;
     font-weight: lighter;
     list-style-type: none;
     display: flex;
@@ -16,7 +14,7 @@ font-size: 1rem;
 
 }
 .LinksOpen li{ 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 1em;
     background-color: rgb(42, 42, 42);
     background-clip: text;
     padding-bottom: 6rem;
@@ -31,7 +29,7 @@ color: transparent;}
     background-color: black;
 
     background-size: 100% 100%;
-    transition: 0.5s ;
+    transition: 0.1s ;
     box-shadow: 5px 5px 15px 15px #0ff;
     background-clip: text;
     -webkit-background-clip: text;
@@ -41,7 +39,8 @@ color: transparent;}
 
 }
 .LinksOpenLinks {
-    padding-right: 4sem;
+    font-size: 3em;
+
     color: rgb(13, 42, 210);
     list-style-type: none;
     text-decoration: none;

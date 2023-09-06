@@ -1,5 +1,6 @@
 .NavbarContainerOpen{
    display: flex;
+
    gap: 1em;
    justify-content: space-around;
    align-items: center;
@@ -11,6 +12,14 @@
     transition-property: width;
 transition-duration: .8s;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media (max-width: 800px)  {
+    .NavbarContainerOpen  
+    {display: none;}
+    .NavbarContainerClosed{
+        display: none;
+    
+}
 }
 .NavbarLogo{
     display: flex;

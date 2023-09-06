@@ -30,25 +30,29 @@ justify-content: space-between;}
 }
 
 .BubbleTwo{
+    margin-right: -25vw;
+
 flex-direction: row;
     margin-left: 10em;
     padding-top: 1em;
     width: fit-content;
     display: flex;
+    flex-direction: column;
    flex-grow: 2;
    font-size:  clamp(16px, 1vw 2rem);
    gap: 1vw;
     align-self: flex-end;
 }
+ .BubbleTwoImage img{
+order: 2;
 
-@container bubbletwo (max-width: 700px){
-    .BubbleTwo{
-        flex-direction: column;
-    }
-    .BubbleTwoImage{
-        width: 70%;
-    }
 }
+
+.BubbleTwo > .bubbleText {
+    order:3;
+}
+
+
 
 @media (width < 900px ){
     .BubbleTwo{
@@ -64,11 +68,16 @@ flex-direction: row;
      padding-top: 1em;
      grid-area: three;
 
-        flex-direction: column;
+        flex-direction: row;
+
     flex-grow: 1;
     font-size:  clamp(16px, 1vw 2rem);
   grid-area: 'bubbleThree';
 }   
+
+.BubbleThree > .bubbleText {
+    order: 3;
+}
 .BubbleThreeImage {
         object-fit: contain;
 }
@@ -81,6 +90,7 @@ flex-direction: row;
 }
 .BubbleTwoImage{
     max-width: 50%;
+
     container :  bubbletwo / normal;
 
 align-content: center;
@@ -119,13 +129,16 @@ justify-content: center;
 
 
     }
-
-    .BubbleOne > .bubbleText{
+    .BubbleOne > .BubbleOneImage{
         order: 2;
     }
+    .BubbleOne > .bubbleText{
+        order: 3;
+    }
+    .BubbleOne > .numberContainer {order: 1;}
     .BubbleTwo img{
         height: auto;
-        width: clamp(12em, 90%, 80vw);
+        width: clamp(12em, 30%, 50vw);
 
         object-fit: cover;
     }
@@ -141,6 +154,11 @@ justify-content: center;
         .BubbleOne, .BubbleTwo, .BubbleThree{
             display: flex;
             flex-direction: column;
+            margin: 5vw;
+            margin-top: 1vw;
+        }
+        .BubbleOne, .BubbleTwo, .BubbleThree > *{
+            padding-top: 1em;
         }
     
     }
