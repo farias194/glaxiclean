@@ -5,6 +5,7 @@
     padding-top: clamp(1vw, 3rem,4vw);
     padding-bottom: clamp(1vw, 5rem,3vw);
     gap: 5vw;
+    font-size: 1rem;
    
 }
 
