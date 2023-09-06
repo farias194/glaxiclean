@@ -4,6 +4,7 @@ import styles from '../../styles/Footer.module.css'
 import Logo from './/footerLogo.js'
 import Links from './/Links'
 import Link from "next/link";
+import Services from "./Services";
 import Image from "next/image";
 
 function Footer (){
@@ -17,7 +18,7 @@ return(
     <p>glaxiclean</p>
     </div>
 <ul>
-    <li>Services</li>
+    <Link href='../components/Services'><li>Services</li></Link>
     <li>Home</li>
     <li>About</li>
 </ul>
