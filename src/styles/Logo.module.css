@@ -8,21 +8,22 @@
   flex-direction: column;
   justify-content: center;
   animation: transform 4s ease-in;
+  padding: .5rem;
+
 
 
 }
 .NavbarLogo img {
+    position: absolute;
     filter: hue-rotate(180deg) invert(100%);
     box-sizing:border-box;
     width: 3rem;
-    padding: .5rem;
     height: auto;}
 
 .logoClosed{
     display: none;
 }
-
-
-
-
+.logoImg{
+    position: absolute;
+}
 

@@ -39,10 +39,10 @@ transition-duration: .8s;
     
 min-height: 100vh;
 position: fixed;
-width: 3rem;
 transition-property: width;
 transition-duration: .4s;
 z-index: 1;
+width: 2rem;
 display: flex;
 justify-content: center;
 }
@@ -62,3 +62,20 @@ justify-content: center;
     flex-direction: row;}
 }
 
+
+.logoNavHolder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+
+}
+.logoNavHolder img{
+    width: 100%;
+}
+.logoText img{
+    width: 30%;
+    object-fit: contain;
+}
