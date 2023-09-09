@@ -39,7 +39,7 @@ transition-duration: .8s;
     
 min-height: 100vh;
 position: fixed;
-width: 4rem;
+width: 3rem;
 transition-property: width;
 transition-duration: .4s;
 z-index: 1;
@@ -52,16 +52,14 @@ background-color: rgb(255, 255, 255);
     transition: 0.5s ;
 }
 
-/*@media  ( max-width : 1000px)  {
-    .NavbarContainerOpen  
-    {display: none;
-    }
+@media  ( max-width : 1000px)  {
+    
     
     .NavbarContainerClosed{
-        display: none;
+        width: 2rem;
     
 }
 .NavbarContainerMobile {display: flex;
     flex-direction: row;}
 }
-*/
+
