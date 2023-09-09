@@ -45,7 +45,6 @@ transition-duration: .4s;
 z-index: 1;
 display: flex;
 justify-content: center;
-background-color: rgb(255, 255, 255);
 }
 .NavbarContainerClosed:hover{
     border-color: aquamarine;
