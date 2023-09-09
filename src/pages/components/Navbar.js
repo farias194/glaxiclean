@@ -11,7 +11,14 @@ function Navbar (){
     console.log(styles)
 
 const [isOpen, setOpen] = useState(false)
+const [isMobile, setMobile] = useState(false);
 
+function checkMobile (){
+    if (window.innerWidth === '1000px' ){
+        setMobile(!isMobile)
+    }
+
+}
 
 
 function toggle(){

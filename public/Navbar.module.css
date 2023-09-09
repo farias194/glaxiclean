@@ -52,7 +52,7 @@ background-color: rgb(255, 255, 255);
     transition: 0.5s ;
 }
 
-@media  ( max-width : 1000px)  {
+/*@media  ( max-width : 1000px)  {
     .NavbarContainerOpen  
     {display: none;
     }
@@ -61,4 +61,7 @@ background-color: rgb(255, 255, 255);
         display: none;
     
 }
+.NavbarContainerMobile {display: flex;
+    flex-direction: row;}
 }
+*/
