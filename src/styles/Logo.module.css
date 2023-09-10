@@ -17,7 +17,7 @@
     position: absolute;
     filter: hue-rotate(180deg) invert(100%);
     box-sizing:border-box;
-    width: 3rem;
+    width: 2rem;
     height: auto;}
 
 .logoClosed{

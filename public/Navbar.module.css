@@ -68,14 +68,7 @@ justify-content: center;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    width: 100%;
 
 }
-.logoNavHolder img{
-    width: 100%;
-}
-.logoText img{
-    width: 30%;
-    object-fit: contain;
+.logoNavHolder .logoText{
 }
