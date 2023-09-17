@@ -36,12 +36,10 @@ function toggle(){
 
 
          <div className= {styles[`NavbarContainer${isOpen?'Open' :'Closed'}`]}  onClick={toggle}>
-<nav className={styles.logoNavHolder}>
-<Image className ={styles.logoText} src={logoText} alt='logotext'/>
+
 
 <Logo className ={styles.NavbarLogo} 
 />
-</nav>
 <div id ='navbarLinks '> 
 <Links NavState={isOpen}/>
 </div>

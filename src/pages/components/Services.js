@@ -46,7 +46,10 @@ function Services() {
     <li>Time-saving convenience for a productive office environment</li>
    
     <li>Attention to detail for a polished and professional office appearance</li>
-    <li>Satisfaction guarantee for your peace of mind  </li>  </div>
+    <li>Satisfaction guarantee for your peace of mind  </li>  
+    
+    </div>
+
     <div className={styles.ExplainerThree}>
 <h1>Single Rooms</h1>
 <h3>Don’t need a full house cleaning? No problem. We offer one two or more room cleanings</h3>
@@ -55,6 +58,14 @@ function Services() {
     <li>flexible sheduling</li>
     <li>rescheduling options</li>
 
+</ul>
+</div>
+
+<div className={styles.ExplainerFour}>
+<h1>Green Cleaning</h1>
+<ul>
+    <li> Hypoallergenic </li>
+    <li>Products that are safe for pets and small childre</li>
 </ul>
 </div>
 </div>

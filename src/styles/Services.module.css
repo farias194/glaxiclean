@@ -17,11 +17,11 @@ max-width: 100%;
 
 }
 .ServicesHeroContainer h1{
-    font-size: clamp(4rem,5vw,12rem);
+    font-size: clamp(3rem,5vw,12rem);
     color: #4589E5;
 }       
 .ServicesHeroContainer p{
-    font-size: 1.5rem;
+    font-size: clamp(1rem,2vw,2rem);
     width: 100%;
 }
 .titleLetter{
@@ -36,9 +36,9 @@ max-width: 100%;
     flex-wrap: wrap;
     background-repeat: repeat;
    z-index: 1;
-   margin-left: clamp(1em,1vw,10vw);
    color: #4589E5;
    display:flex ;
+   margin-left: clamp(1rem, 2vw, 5rem);
     max-width: 100%;
     gap: 2rem;
 }
@@ -53,11 +53,11 @@ padding-top: 3rem;}
     
 
     
-.ExplainerOne, .ExplainerTwo, .ExplainerThree{
+.ExplainerOne, .ExplainerTwo, .ExplainerThree, .ExplainerFour{
 box-sizing: content-box;
     border: 1px solid blue;
     border-radius: 30px;
-    margin-left: 5em;
+    margin-left: clamp(2em, 2vw, 10em);
     padding: 2em;
     max-width: 30ch;
     position: relative;

@@ -17,7 +17,7 @@
 }
 .hello{
     margin: 0px;
-padding: 2em;
+padding: 3em;
     font-size: clamp(3rem, 5vw, 9rem);
 max-width: 30ch;    
 color: white;

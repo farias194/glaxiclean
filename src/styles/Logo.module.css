@@ -8,22 +8,33 @@
   flex-direction: column;
   justify-content: center;
   animation: transform 4s ease-in;
-  padding: .5rem;
+  padding: 1rem;
 
 
 
 }
-.NavbarLogo img {
-    position: absolute;
-    filter: hue-rotate(180deg) invert(100%);
-    box-sizing:border-box;
-    width: 2rem;
-    height: auto;}
+
+
 
 .logoClosed{
     display: none;
 }
 .logoImg{
+    margin: 2rem;
+    width: clamp(2rem,1vw,3rem);
     position: absolute;
 }
 
+.logoGif {
+object-fit: contain;
+width: 20rem;
+height: auto;
+mix-blend-mode: color-dodge;
+background-color: white;
+}
+.logoGif img {
+
+    mix-blend-mode: color-dodge;
+    background-color: white;
+
+}
