@@ -12,9 +12,7 @@ function Hero (){
 <div className={styles.HeroClass} >
 
         <h1>
-        We clean so you can <br></br>
-        focus on what you <br></br>
-        need to do <br></br>
+        Green Cleaning, on your schedule
         </h1>
     
         </div>

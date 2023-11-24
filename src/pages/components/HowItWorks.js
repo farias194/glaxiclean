@@ -1,5 +1,5 @@
 import BubbleOneImage from 'public/BubbleOneImage.png';
-import BubbleTwoImage from 'public/BubbleTwoImage.png';
+import BubbleTwoImage from 'public/BubbleImageTwoAlt.webp';
 import BubbleThreeImage from 'public/BubbleThreeImage.png';
 import styles from '../../styles/HowItWorks.module.css';
 import Bubbles from './/Bubbles'
@@ -21,7 +21,8 @@ const bubbleText = ['Sign Up through our booking site', 'Select the areas which 
 
         <div className={styles.HowItWorksContainer} id="HowItWorksContainer">
 <h1>How It Works</h1>
-<div className={styles.BubblesContainer}>
+<p>Book a clean home in a few simple steps!</p>
+<section className={styles.BubblesContainer}>
     
 <Bubbles 
     className ={bubbleClassName[0]}
@@ -43,7 +44,7 @@ const bubbleText = ['Sign Up through our booking site', 'Select the areas which 
     bubbleText ={bubbleText[2]}
     bubbleTextNumber ={bubbleTextNumber[2]}/>
         
-        </div>
+        </section>
         </div>
     )
 }

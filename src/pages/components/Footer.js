@@ -18,9 +18,9 @@ return(
     <p>glaxiclean</p>
     </div>
 <ul>
-    <Link href='../components/Services'><li>Services</li></Link>
-    <li>Home</li>
-    <li>About</li>
+    <Link className={styles.links} href='../components/Services'><li>Services</li></Link>
+    <Link className={styles.links} href='../'><li>Home</li></Link>
+    <Link className={styles.links} href='../components/AboutUsPage'><li>About</li></Link>
 </ul>
 </div>
     </div>

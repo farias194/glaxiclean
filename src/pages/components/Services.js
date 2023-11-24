@@ -19,14 +19,14 @@ function Services() {
 <div className={styles.ServicesHeroContainer}>
 <h1> Services</h1>
 <p>We offer a variety of services. If you need single rooms, we got that. Multiple rooms, we got that too. Look below </p>   </div>
-    </div>
+    
     <div className={styles.ExplainerMaster}>
 
 <div className={styles.ServicesExplainContainer}>
     <div className={styles.ExplainerOne}>
 
         <h2>Full Home Cleaning</h2>
-        <Image src={HomeCleaningIcon} alt='Home Cleaning Icon'/>
+      {/*  <Image src={HomeCleaningIcon} alt='Home Cleaning Icon'/> */}
         <ul>
     <li>   Time-saving convenience</li>
   <li>Attention to Detail</li>
@@ -40,7 +40,7 @@ function Services() {
 
         <h2>Office Cleaning</h2>
 
-        <Image src={OfficeCleaningIcon} alt='Office Cleaning Icon'/>
+       {/* <Image src={OfficeCleaningIcon} alt='Office Cleaning Icon'/> */}
 
         <li>Comprehensive office cleaning for a pristine workspace</li>
     <li>Time-saving convenience for a productive office environment</li>
@@ -51,8 +51,7 @@ function Services() {
     </div>
 
     <div className={styles.ExplainerThree}>
-<h1>Single Rooms</h1>
-<h3>Don’t need a full house cleaning? No problem. We offer one two or more room cleanings</h3>
+<h2>Single Rooms</h2>
 <ul>
     <li>Good for single households</li>
     <li>flexible sheduling</li>
@@ -62,13 +61,14 @@ function Services() {
 </div>
 
 <div className={styles.ExplainerFour}>
-<h1>Green Cleaning</h1>
+<h2>Green Cleaning</h2>
 <ul>
     <li> Hypoallergenic </li>
     <li>Products that are safe for pets and small childre</li>
 </ul>
 </div>
 </div>
+    </div>
     </div>
 <Footer/>
   </div>

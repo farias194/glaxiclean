@@ -2,7 +2,7 @@ import React, { use, useState } from "react";
 import Logo from './/footerLogo';
 import styles from '../../../public/Navbar.module.css'
 import Links from ".//Links";
-import logo  from "../../../public/logo.svg";
+import logo  from "../../../public/gclogo.svg";
 import Image from "next/image";
 import logoText from '../../../public/logoText.svg'
 /*const backup =  <div className= {`styles.NavbarContainer${isOpen?'Open' :'Closed'}`}  onClick={toggle}>*/

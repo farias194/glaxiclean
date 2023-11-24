@@ -21,13 +21,31 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 }
+
+@keyframes logorotate{
+
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
 .NavbarLogo{
     display: flex;
   align-items: center;
   flex-direction: column;
 width: 20px;  
+background-color: white;
 
 
+}
+.NavbarLogo img{
+    animation-name: logorotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    
 }
 
 
@@ -46,7 +64,7 @@ width: 20px;
 min-height: 10vh;
 position: fixed;
 width: calc(5rem+ 20px);
-
+padding: 2vw;
 transition-property: width;
 transition-duration: .4s;
 display: flex;

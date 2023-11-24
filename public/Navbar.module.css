@@ -14,13 +14,20 @@
 transition-duration: .8s;
 }
 
+
+
 .NavbarLogo{
     display: flex;
   align-items: center;
   flex-direction: column;
-  
 
 
+
+}
+.NavbarLogo img{
+    animation-name: text-circle;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
 }
 
 
