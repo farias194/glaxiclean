@@ -1,4 +1,4 @@
-import React, { use, useState } from "react";
+import React, { use, useState, useEffect} from "react";
 import Logo from './/footerLogo';
 import styles from '../../../public/Navbar.module.css'
 import Links from ".//Links";
@@ -21,6 +21,19 @@ function checkMobile (){
 
 }
 
+useEffect(() =>{
+
+const handleResize = () =>{
+
+    setMobile(window.innerWidth <800);
+}
+handleResize();
+    window.addEventListener('resize' , handleResize);
+    return()=>{
+        window.removeEventListener('resize', handleResize)
+    }
+},[]);
+
 
 function toggle(){
     setOpen(!isOpen)
@@ -33,7 +46,6 @@ function toggle(){
 /*<div className= {{styles}`.NavbarContainer${isOpen?'Open' :'Closed'}`}  onClick={toggle}>*/
 
     return(
-
 
          <div className= {styles[`NavbarContainer${isOpen?'Open' :'Closed'}`]}  onClick={toggle}>
 

@@ -12,10 +12,12 @@ function Hero (){
 <div className={styles.HeroClass} >
 
         <h1>
-        Green Cleaning, on your schedule
+        Green Cleaning on your schedule
         </h1>
+        
+        <h2>New Jersey's premier cleaning service, serving the entire North Jersey area</h2>
     <h2>Book now for a free cleaning</h2>
-        </div>
+<BookNowButton/>        </div>
         </div>
     )
 }
