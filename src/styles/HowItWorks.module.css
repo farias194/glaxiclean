@@ -6,7 +6,8 @@
     background-blend-mode:hue;
     box-sizing: border-box;
     max-width: 100%;
-    
+    padding-left: clamp(3rem, 3vw, 10rem);
+
    padding-top: 3rem;
   
    
@@ -17,12 +18,10 @@
     font-size: clamp(4rem, 6vw,6rem);
 
     padding: 1rem;
-    padding-left: 10rem;
     
 }
 .HowItWorksContainer p{
     font-size: 2;
-    padding-left: 10rem;
     padding-bottom: 10rem;
 
 }

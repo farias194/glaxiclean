@@ -11,7 +11,7 @@
    padding: 1em;
     position: fixed;
     transition-property: width;
-transition-duration: .8s;
+transition-duration: .4s;
 }
 
 
@@ -43,7 +43,7 @@ transition-duration: .8s;
 
 }
 .NavbarContainerClosed{
-    
+background-color: white;
 min-height: 100vh;
 position: fixed;
 transition-property: width;
@@ -62,6 +62,7 @@ justify-content: center;
     
     
     .NavbarContainerClosed{
+
         width: 2rem;
     
 }
@@ -94,7 +95,7 @@ justify-content: center;
     width: 100%;
     transform-origin: bottom center;
     animation-name: text-circle;
-    animation-duration:0s;
+    animation-duration: 0s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }

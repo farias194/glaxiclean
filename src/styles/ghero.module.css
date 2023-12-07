@@ -3,12 +3,11 @@
 
 .HeroClass{
     top: 0;
-    max-width: 100vw;
+    max-width: auto;
     
     margin: 0;
     display: flex;
-    margin: 0px;
-    color: #353636;
+     color: #ededed;
     flex-direction:column;
 
 }
@@ -17,9 +16,9 @@
     flex-direction: column;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height:  max(80vh, 100vh);
+    min-height:  max(80vh, 50rem);
     filter: saturate(90deg);
-    padding-left: 10rem;
+    padding: clamp(5rem,5vw, 10rem);
     background-image : url('../../public/gcherobgalt.webp');
 
 }
@@ -27,19 +26,23 @@
 .name{
     color: white;
     width: 100%;
-    font-size: 1.4rem;
+    font-size: 1rem;
     align-self: flex-start;
 }
 .HeroClass h1{
 box-sizing: border-box;
-padding-top: 5em;
+padding: 10rem 5rem 10rem 5rem;
 
-padding-right: 1em;
-font-size: var(--headerSize);
 /*font-size: clamp(2rem,6vw,6rem);*/
-    line-height: var(--leading);
     color:#ebebeb;
    
+}
+
+.HeroClass h2{
+    padding-top: 2rem;
+    padding: 10rem 5rem 10rem 5rem;
+
+    font-size: 1rem;
 }
 
 .slider{

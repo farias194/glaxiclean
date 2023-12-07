@@ -6,7 +6,7 @@
     z-index: 2;
     padding-left: 20vw;
     padding-top: 2em;
-    padding-bottom: 4em;
+    padding-bottom: 1em;
     font-size: 2rem;
     color: white;
     display: flex;
@@ -45,8 +45,8 @@ list-style: none;
 .footerLinks{
     display: flex;
     flex-direction: row;
-    gap: 5em;
     align-items: baseline;
+    justify-content: space-between;
 }
 
 
@@ -56,3 +56,10 @@ list-style: none;
     list-style-type: none;
     color: white;
 list-style: none;}
+
+.linkContainer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+}

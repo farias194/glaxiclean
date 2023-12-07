@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import styles from '../../styles/ghero.module.css'
-import Heroimg from '/public/hero-image.png'
+import Heroimg from '/public/HeroImageAlt.png'
 import Slider from "./Slider";
 import BookNowButton from "./BookNowButton";
 function Hero (){
@@ -14,7 +14,7 @@ function Hero (){
         <h1>
         Green Cleaning, on your schedule
         </h1>
-    
+    <h2>Book now for a free cleaning</h2>
         </div>
         </div>
     )

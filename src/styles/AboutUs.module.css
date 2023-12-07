@@ -9,11 +9,10 @@ padding-left: clamp(1rem, 1vw, 2em);
 .AboutUsHeader{
 
     color: #636FED;
-    font-size: clamp(4rem,4vw,9rem);
+    font-size: clamp(2rem,4vw,9rem);
     padding-top: 1em;
-    padding-bottom: clamp(1rem, 1vw, 3em);
-    padding-left: clamp(1rem, 1vw, 2em);
-    padding-right: clamp(1rem,1vw,2rem);
+    padding-bottom: clamp(4rem, 1vw, 3em);
+    padding-right: clamp(2rem,1vw,2rem);
     max-width: 20ch;
 }
 .AboutUsHeader h1{
@@ -22,7 +21,8 @@ padding-bottom: 5em;
 }
 
 .container p{
-    font-size: 1.2rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
     color: #636FED;
     font-weight: lighter;
     padding-bottom: 5em;
@@ -47,23 +47,26 @@ margin-bottom: -30%;
     font-weight: '100';
     max-width: 100%;
     padding: clamp(1em, 2vw, 5em);
+    padding-bottom: 4rem;
     background-color: #814AFF;
     color: #ECECF0;
 }
 .AboutUsContainerInfo > *{
-
+    letter-spacing: 1px;
     margin-left: 20vw;
     padding-top: clamp(2em,4vw,6em);
-    padding-bottom: clamp(1em,4vw,5em);
+    padding-bottom: clamp(4em,4vw,5em);
 
 }
 .AboutUsContainerInfo h1{
 font-family: 'Nunito';  
+    padding-bottom: 2rem;
   font-size: 2rem;
+  width: clamp(10ch, 4vw, max-content) ;
 }
 .AboutUsContainerInfo p {
-    width: 80%;
-    font-weight: lighter;
+    font-weight: normal;
     padding-top: 1em;
-    line-height: 1.3rem;
+    line-height: 1.4rem;
+    width: max(100% - 1rem);
 }

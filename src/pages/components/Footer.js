@@ -1,5 +1,5 @@
 import React from "react";
-import Footerimg from '../../../public/Footer.png'
+import Footerimg from '../../../public/Footer.webp'
 import styles from '../../styles/Footer.module.css'
 import Logo from './/footerLogo.js'
 import Links from './/Links'
@@ -17,7 +17,7 @@ return(
 
     <p>glaxiclean</p>
     </div>
-<ul>
+<ul className={styles.linkContainer}>
     <Link className={styles.links} href='../components/Services'><li>Services</li></Link>
     <Link className={styles.links} href='../'><li>Home</li></Link>
     <Link className={styles.links} href='../components/AboutUsPage'><li>About</li></Link>

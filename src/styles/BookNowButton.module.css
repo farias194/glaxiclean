@@ -1,9 +1,15 @@
 .container{
-    margin-top: 2rem
+    margin-top: 2rem;
+    align-self: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 .button{
     background-color: #1A3DAF;
     color: whitesmoke;
+    align-self: center;
+
     border: none;
     padding: 1rem;
     padding-left:2rem;

@@ -1,26 +1,33 @@
 .EnderContainer{
     max-width: 100%;
     height: auto;
+
     background-image: url('../../public/Footer.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    text-align: center;
 
 
 }
 
 .EnderContainer > *{
-    margin-left: 20vw;
     padding-bottom: 2em;
 
 }
 .hello{
-    margin: 0px;
-padding: 3em;
-    font-size: clamp(3rem, 5vw, 9rem);
-max-width: 30ch;    
-color: white;
+    padding-top: 2em;
+    margin-left: min(5vw, 5rem);
+
+    padding-bottom: 2em;
+    font-size: clamp(2rem, 5vw, 9rem);
+    margin-left: min(3vw, 3rem);
+    margin: auto;
+color: white;   
+width: 50%;
+}
+.hello h1{
+    text-align: center ;
+
 }
 .EnderFooterContainer{
     margin:0px;

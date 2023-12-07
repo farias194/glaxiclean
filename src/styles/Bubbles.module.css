@@ -12,7 +12,7 @@
 .BubbleOne{
     display: flex;
     flex-direction:  row;
-    padding-left: clamp(2vw, 10rem, 10vw);
+    padding-left: clamp(2rem, 5vw, 10vw);
     font-size:  clamp(16px, 1vw 2rem);
     padding-top: 1em;
     width: 100%;
@@ -23,7 +23,7 @@ justify-content: flex-start;
 
 .BubbleOne img{
     order: 1;
-    width: 50vw;
+    width: calc(100% - 10px)
 
 }
 
@@ -49,21 +49,25 @@ justify-content: flex-start;
 .BubbleOne > .BubbleOneImage{
     order: 2;
 }
-.BubbleOne > .bubbleText{
-    order: 3;
+.BubbleOne .bubbleText{
+    padding: 2rem;
+    text-align: center;
+}
+.Bubble-One .bubbleMasterContainer .bubbleText h2{
+    width: max(20ch, 80%);
+
 }
 .BubbleOne > .numberContainer {order: 1;}
 
 .BubbleOne  .bubbleMasterContainer{
     display: flex;
     align-items: center;
-    width: max-content;
     justify-content: center;
     flex-direction: row-reverse;
 }
 .numberContainer{
     
-    font-size: 3rem;
+    font-size: clamp(1rem, 1.5vw,3rem);
     align-items: center;
     align-self: center;
     padding: 1rem 1.5rem 1rem 1.5rem;
@@ -172,10 +176,8 @@ order: 2;
 @media (width < 900px)  {
 
     .BubbleOne, .BubbleTwo, .BubbleThree{
-            width: 100%;
-            display: flex;
+              display: flex;
             flex-direction: column;
-            margin: 5vw;
             margin-top: 1vw;
             align-items: center;
             justify-content: center;
@@ -185,9 +187,12 @@ order: 2;
         .BubbleOne .bubbleMasterContainer{
             display: flex;
             justify-content: center;
-
             flex-direction: column-reverse;
             align-items: center;
+
+        }
+        .BubbleOne .bubbleText{
+            width: 80%;
         }
 
         .BubbleOne img{
