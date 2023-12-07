@@ -31,7 +31,7 @@
 .HeroClass h1{
 
 box-sizing: border-box;
-padding: 10rem 5rem 1rem 0px;
+padding: 10rem 1rem 1rem 0px;
 
 font-size: clamp(2rem,6vw,6rem);
     color:#ebebeb;

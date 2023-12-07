@@ -1,4 +1,4 @@
-.NavbarContainerOpen{
+.NavbarContainerOpenDesktop{
    display: flex;
    z-index: 1;
    gap: 1em;
@@ -42,7 +42,7 @@ transition-duration: .4s;
     list-style-type: none;
 
 }
-.NavbarContainerClosed{
+.NavbarContainerClosedDesktop{
 background-color: white;
 min-height: 100vh;
 position: fixed;
@@ -57,8 +57,22 @@ justify-content: center;
     border-color: aquamarine;
     transition: 0.5s ;
 }
+.NavbarContainerClosedMobile{
+    padding: 1rem;
+    width: auto;
+    min-height: 1vh;
+}
+.NavbarContainerOpenMobile{
+    background-color: white;
+    transition: .2s;
+    width: 100vw;
+    min-height: 100vh;
+    z-index: 9999;
+    position: fixed;
+    overflow: hidden;
+}
 
-@media  ( max-width : 1000px)  {
+@media  ( max-width < 800px)  {
     
     
     .NavbarContainerClosed{
@@ -67,7 +81,7 @@ justify-content: center;
     
 }
 .NavbarContainerMobile {display: flex;
-    flex-direction: row;}
+    flex-direction: column;}
 }
 
 

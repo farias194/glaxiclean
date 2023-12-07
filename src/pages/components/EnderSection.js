@@ -10,7 +10,7 @@ const EnderSection =() =>{
         <div>
         <div class={styles.EnderContainer}>
 
-            <h1 class={styles.hello}>Dont Come Home From Work to More Work</h1>
+            <h1 className={styles.hello}>Dont Come Home From Work to More Work</h1>
             <BookNowButton/>
             <div className={styles.EnderFooterContainer}>
         <Footer/>

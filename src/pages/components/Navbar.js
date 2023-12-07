@@ -14,20 +14,15 @@ function Navbar (){
 const [isOpen, setOpen] = useState(false)
 const [isMobile, setMobile] = useState(false);
 
-function checkMobile (){
-    if (window.innerWidth === '1000px' ){
-        setMobile(!isMobile)
-    }
-
-}
 
 useEffect(() =>{
 
 const handleResize = () =>{
+    setMobile(window.innerWidth < 700);
+};
 
-    setMobile(window.innerWidth <800);
-}
 handleResize();
+
     window.addEventListener('resize' , handleResize);
     return()=>{
         window.removeEventListener('resize', handleResize)
@@ -47,7 +42,7 @@ function toggle(){
 
     return(
 
-         <div className= {styles[`NavbarContainer${isOpen?'Open' :'Closed'}`]}  onClick={toggle}>
+         <div className= {styles[`NavbarContainer${isOpen?'Open' :'Closed'}${isMobile ? 'Mobile': 'Desktop'}`]}onClick={toggle}>
 
 
 <Logo className ={styles.NavbarLogo} 
