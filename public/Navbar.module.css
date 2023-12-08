@@ -59,8 +59,13 @@ justify-content: center;
 }
 .NavbarContainerClosedMobile{
     padding: 2rem;
+    background-color: white;
+    min-width: 100vw;
     width: auto;
-    min-height: 1vh;
+    position: fixed;
+   min-height: 2vh;
+   z-index: 9999;
+   box-shadow:hsl(from white h s l);
 }
 .NavbarContainerOpenMobile{
     background-color: white;
