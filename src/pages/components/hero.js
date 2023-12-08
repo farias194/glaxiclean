@@ -15,7 +15,7 @@ function Hero (){
         Green Cleaning on your schedule
         </h1>
         
-        <h2>New Jersey's premier cleaning service, serving the entire North Jersey area</h2>
+        <h2>New Jerseys premier cleaning service, serving the entire North Jersey area</h2>
     <h2>Book now for a free cleaning</h2>
 <BookNowButton/>        </div>
         </div>
