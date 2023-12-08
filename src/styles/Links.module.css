@@ -1,6 +1,6 @@
 .LinksOpen{
     font-family: 'Comfortaa';
-
+    transition:2s;
 }
 
 .LinksOpen ul{
@@ -40,7 +40,8 @@ color: transparent;}
 }
 .LinksOpenLinks {
     font-size: 3em;
-
+    padding-top: 2rem;
+    padding-left: 2rem;
     color: rgb(13, 42, 210);
     list-style-type: none;
     text-decoration: none;
