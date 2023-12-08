@@ -58,7 +58,7 @@ justify-content: center;
     transition: 0.5s ;
 }
 .NavbarContainerClosedMobile{
-    padding: 1rem;
+    padding: 2rem;
     width: auto;
     min-height: 1vh;
 }
@@ -72,17 +72,10 @@ justify-content: center;
     overflow: hidden;
 }
 
-@media  ( max-width < 800px)  {
-    
-    
-    .NavbarContainerClosed{
 
-        width: 2rem;
-    
-}
 .NavbarContainerMobile {display: flex;
     flex-direction: column;}
-}
+
 
 
 
