@@ -22,8 +22,14 @@
 
 
 }
+.footerLogoContainer p{
+    padding-top: 2rem;
+    font-size: 2rem;
+
+}
 .footerLogoContainer{
- 
+    padding:5rem;
+ filter: grayscale(90%) brightness(100);
 }
 .footerLinks .links{
     display: flex;
@@ -59,4 +65,9 @@ list-style: none;}
     width: 100%;
     flex-direction: column;
     justify-content: space-between;
+}
+
+@media (width<700px) {
+    .FooterContainer{
+padding: 2rem;    }
 }

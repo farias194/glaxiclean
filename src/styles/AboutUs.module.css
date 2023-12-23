@@ -9,8 +9,8 @@ padding-left: clamp(1rem, 1vw, 2em);
 .AboutUsHeader{
 
     color: #636FED;
-    font-size: clamp(2rem,4vw,9rem);
-    padding-top: 1em;
+    font-size: clamp(3rem,4vw,9rem);
+    padding-top: 3vw;
     padding-bottom: clamp(4rem, 1vw, 3em);
     padding-right: clamp(2rem,1vw,2rem);
     max-width: 20ch;
@@ -24,7 +24,6 @@ padding-bottom: 5em;
     font-size: 1rem;
     letter-spacing: 1px;
     color: #636FED;
-    font-weight: lighter;
     padding-bottom: 5em;
     width: 80%;
 }
@@ -46,10 +45,11 @@ margin-bottom: -30%;
     position: relative;
     font-weight: '100';
     max-width: 100%;
-    padding: clamp(1em, 2vw, 5em);
+    padding: clamp(3em, 4vw, 5em);
     padding-bottom: 4rem;
-    background-color: #814AFF;
-    color: #ECECF0;
+
+    background-color: #ffffff;
+    color: #170428;
 }
 .AboutUsContainerInfo > *{
     letter-spacing: 1px;
@@ -61,7 +61,8 @@ margin-bottom: -30%;
 .AboutUsContainerInfo h1{
 font-family: 'Nunito';  
     padding-bottom: 2rem;
-  font-size: 2rem;
+  font-size: clamp(1rem, 2vw, 5rem);
+  font-weight: bolder;
   width: clamp(10ch, 4vw, max-content) ;
 }
 .AboutUsContainerInfo p {
@@ -69,4 +70,22 @@ font-family: 'Nunito';
     padding-top: 1em;
     line-height: 1.4rem;
     width: max(100% - 1rem);
+}
+@media ( width < 700px) {
+    .container{
+        margin: auto;
+        padding-top: 30vw;
+        padding-left: 3rem;
+        padding-right: 3rem;
+
+    }
+
+    .container p {
+
+        width: 100%;
+    }
+    .AboutUsContainerInfo > *{
+        margin-left: auto;
+    
+}
 }

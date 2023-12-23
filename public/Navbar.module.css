@@ -11,7 +11,7 @@
    padding: 1em;
     position: fixed;
     transition-property: width;
-transition-duration: .4s;
+transition-duration: 1s;
 }
 
 
@@ -69,8 +69,9 @@ justify-content: center;
 }
 .NavbarContainerOpenMobile{
     background-color: white;
-    transition: .2s;
-    width: 100vw;
+    min-width: 100vw;
+    transition-property: min-height;
+    transition-duration: .3s;
     min-height: 100vh;
     z-index: 9999;
     position: fixed;

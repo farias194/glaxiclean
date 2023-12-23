@@ -1,4 +1,6 @@
 .LinksOpen{
+    padding-top: 5rem;
+
     font-family: 'Comfortaa';
     transition:2s;
 }
@@ -29,7 +31,7 @@ color: transparent;}
     background-color: black;
 
     background-size: 100% 100%;
-    transition: 0.1s ;
+    transition: 0.2s ;
     box-shadow: 5px 5px 15px 15px #0ff;
     background-clip: text;
     -webkit-background-clip: text;

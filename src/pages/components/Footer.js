@@ -13,6 +13,7 @@ return(
 <div className={styles.FooterContainer} id='FooterContainer'>
 <div className={styles.footerLinks}>
     <div className={styles.footerLogoContainer}>
+        
 <Logo/>
 
     <p>glaxiclean</p>
