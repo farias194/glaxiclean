@@ -28,7 +28,8 @@
 
 }
 .footerLogoContainer{
-    padding:5rem;
+    padding-bottom: calc(1rem + 1vw);
+    padding-top: calc(1rem + 3vw);
  filter: grayscale(90%) brightness(100);
 }
 .footerLinks .links{
@@ -39,16 +40,17 @@
 align-items: flex-end;}
 
 .footerLinks ul a{
-display: inline-block;
 font-size: 1rem;
 padding-bottom: 1em;
+display:flex;
+flex-direction: row;
 list-style: none;
 
 }
 
 .footerLinks{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: baseline;
 }
 
@@ -69,5 +71,15 @@ list-style: none;}
 
 @media (width<700px) {
     .FooterContainer{
-padding: 2rem;    }
+        
+padding: 3rem;    }
+
+.linkContainer{
+    flex-direction: row;
+}
+
+.footerLogoContainer{
+    align-self: center;
+
+}
 }
