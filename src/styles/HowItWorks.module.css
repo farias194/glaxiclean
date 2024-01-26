@@ -46,6 +46,7 @@
 }
 @media (width < 800px)  {
     .HowItWorksContainer {
+        padding: 10px;
         
     }
 }
