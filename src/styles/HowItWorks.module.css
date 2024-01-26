@@ -44,7 +44,7 @@
         font-size: .5rem;
     }
 }
-@media (width < 800px)  {
+@media (width < 800)  {
     .HowItWorksContainer {
         padding: 10px;
         
