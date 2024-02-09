@@ -15,7 +15,7 @@ const AboutUsPage =()=>{
     
     <section className={styles.container}>
 
-<h1 className={styles.AboutUsHeader}> clean homes dont have to be toxic</h1>
+<h1 className={styles.AboutUsHeader}> clean homes, without all the chemicals</h1>
 <p>Through our use of green cleaning products, we are not only reducing the environmental impact of our services but also creating a healthier indoor environment for you and your loved ones. Our meticulous attention to detail ensures that every nook and cranny is thoroughly cleaned, leaving your home refreshed, rejuvenated, and free from harmful residues.
 
 Join us in our mission for a cleaner, safer, and more sustainable future.</p>
@@ -29,7 +29,7 @@ Join us in our mission for a cleaner, safer, and more sustainable future.</p>
 <section className={styles.AboutUsContainerInfo}>
 
 <section className={styles.ContainerInfoOne}>
-    <h1>Timeless and Effeciency</h1>
+    <h1>Quick &  Effecient</h1>
     <p>We understand that your time is valuable. Thats why we are dedicated to delivering our services with punctuality and efficiency. With our reliable team of skilled professionals, we strive to complete each cleaning project promptly and effectively, ensuring your home is left spotless and ready for you to enjoy.
 </p>
 </section>
