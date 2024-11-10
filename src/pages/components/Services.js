@@ -17,8 +17,8 @@ function Services() {
 
         <div className={styles.ServicesContainer}>
 <div className={styles.ServicesHeroContainer}>
-<h1> Services</h1>
-<p>We offer a variety of services. If you need single rooms, we got that. Multiple rooms, we got that too. Look below </p>   </div>
+<h1> Home Sweet Eco-Home</h1>
+<p>Kick back and relax in a home that's as clean as it is environmentally friendly. Our non-toxic cleaning products make your place sparkle without any weird chemicals messing up the vibe.</p>  </div>
     
     <div className={styles.ExplainerMaster}>
 

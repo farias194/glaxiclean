@@ -9,7 +9,7 @@ padding-left: clamp(1rem, 1vw, 2em);
 .AboutUsHeader{
 
     color: #636FED;
-    font-size: clamp(3rem,4vw,9rem);
+    font-size: clamp(3rem,5vw,9rem);
     padding-top: 3vw;
     padding-bottom: clamp(4rem, 1vw, 3em);
     padding-right: clamp(2rem,1vw,2rem);
@@ -43,12 +43,13 @@ margin-bottom: -30%;
 
 .AboutUsContainerInfo{
     position: relative;
+    
     font-weight: '100';
     max-width: 100%;
     padding: clamp(3em, 4vw, 5em);
     padding-bottom: 4rem;
 
-    background-color: #ffffff;
+    background-color: rgb(70, 13, 185);
     color: #170428;
 }
 .AboutUsContainerInfo > *{
@@ -59,13 +60,15 @@ margin-bottom: -30%;
 
 }
 .AboutUsContainerInfo h1{
+    color: #ededee;
 font-family: 'Nunito';  
     padding-bottom: 2rem;
-  font-size: clamp(1rem, 2vw, 5rem);
+  font-size: clamp(3rem, 3vw, 6rem);
   font-weight: bolder;
   width: clamp(10ch, 4vw, max-content) ;
 }
 .AboutUsContainerInfo p {
+    color: #636FED;
     font-weight: normal;
     padding-top: 1em;
     line-height: 1.4rem;
